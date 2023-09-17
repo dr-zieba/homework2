@@ -10,11 +10,13 @@ if __name__ == "__main__":
         """
             )
         )
+        if user_input == 3:
+            exit()
+
         customer_id_input = int(input("Insert customer ID: "))
         amount_input = int(input("Insert amount to be added: "))
+
         if user_input == 1:
             add(customer_id_input, amount_input, table_name)
         elif user_input == 2:
             subtract(customer_id_input, amount_input, table_name)
-        elif user_input == 3:
-            exit()
