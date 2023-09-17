@@ -3,7 +3,7 @@ if __name__ == "__main__":
         sql_fetch_all_data("Customer")
         user_input = int(
             input(
-                """What's your action?: 
+                """What's your action ?: 
         1: Add
         2: Subtract
         3: Exit
